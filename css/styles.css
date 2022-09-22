@@ -18,6 +18,12 @@ body {
 }
 
 /* Utilities */
+
+.header {
+    /* outline: 1px solid #ECECEC; */
+    border-bottom: 1px solid #ECECEC;
+}
+
 .ul {
     margin: 0;
     padding: 0;
@@ -29,12 +35,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    width: 1200px;     
+    width: 1200px; 
+    /* border-bottom: 1px solid #ECECEC; */
 }
-
-/* .header .container{
-    outline: 1px solid #ECECEC;
-} */
 
 h1, h2, h3 {
     margin-top: 0;
@@ -178,7 +181,6 @@ ul {
 .advantages-list {
     display: flex;
     margin-top: 94px;
-    /* border: 1px solid green; */
 }
 
 .advantages .description {
