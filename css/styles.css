@@ -149,6 +149,8 @@ a {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    margin-bottom: 30px;
 }
 .hero-button {
     background-color: var(--accent-color);
@@ -164,6 +166,8 @@ a {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+    border-color: transparent;
 }
 
 /* Advantages */
@@ -196,12 +200,12 @@ a {
     display: flex;
 }
 
-.advantages-list:nth-last-child() {
-    margin-right: 0px;
-}
-
 .advantages-list .item {
     margin-right: 30px;
+}
+
+.advantages-list .item:nth-last-child(1){
+    margin-right: 0px;
 }
 
 /* Duty+Team */
@@ -225,9 +229,12 @@ a {
 }
 
 /* Team */
-.our-team {
-    /* padding-top: 94px; */
+.details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.our-team {
     color: var(--main-text-color);
     background-color: var(--team-buttons-background-color);
     text-align: center;
@@ -238,12 +245,10 @@ a {
 }
 
 .our-team .name {
-    margin-top: 30px;
     font-weight: 500;
 }
 .position {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 10px;    
 
     font-size: 16px;
     line-height: 1.19;  
