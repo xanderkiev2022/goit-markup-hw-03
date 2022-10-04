@@ -24,17 +24,11 @@ body {
     border-bottom: 1px solid #ECECEC;
 }
 
-.ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 .container {
     /* display: flex; */
     margin: auto;
     padding: 0 15px;
-    width: 1200px; 
+    max-width: 1200px; 
     /* border-bottom: 1px solid #ECECEC; */
 }
 
@@ -136,6 +130,10 @@ a {
 
 /* Main-Top */
 .hero {
+    max-width: 1600px;
+    height: 600px;
+    margin: auto;
+
     padding-top: 200px;
     padding-bottom: 200px;
 
